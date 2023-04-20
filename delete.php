@@ -28,4 +28,5 @@ $password = '6bedbb8c';
      // 商品一覧ページにリダイレクトさせる（同時にmessageパラメータも渡す）
      header("Location: read.php?message={$message}");
  } catch (PDOException $e) {
-     exit($e->getMessage(
+     exit($e->getMessage());
+ }
