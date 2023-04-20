@@ -1,8 +1,11 @@
 <?PHP
- $dsn = 'mysql:dbname=php_db_app;host=localhost;charset=utf8mb4';
- $user = 'root';
+//  $dsn = 'mysql:dbname=php_db_app;host=localhost;charset=utf8mb4';
+//  $user = 'root';
 // MAMPを利用しているMacユーザーの方は、''ではなく'root'を代入してください
- $password = 'root';
+//  $password = 'root';
+$dsn = 'mysql:heroku_4152ab708911dce;host=us-cdbr-east-06.cleardb.net;charset=utf8mb4';
+$user = 'ba25289e9bb514';
+$password = '6bedbb8c';
  
  try {
      $pdo = new PDO($dsn, $user, $password);

@@ -1,7 +1,10 @@
 <?PHP
- $dsn = 'mysql:dbname=php_db_app;host=localhost;charset=utf8mb4';
- $user = 'root';
- $password = 'root';
+//  $dsn = 'mysql:dbname=php_db_app;host=localhost;charset=utf8mb4';
+//  $user = 'root';
+//  $password = 'root';
+$dsn = 'mysql:heroku_4152ab708911dce;host=us-cdbr-east-06.cleardb.net;charset=utf8mb4';
+$user = 'ba25289e9bb514';
+$password = '6bedbb8c';
  
 // submitパラメータの値が存在するとき（「更新」ボタンを押したとき）の処理
 if (isset($_POST['submit'])) {
